@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Licentie &amp; Open source — SelectieTool</title>
+<meta name="description" content="SelectieTool is open source onder AGPL-3.0. Vrij te gebruiken, aan te passen en te hosten. Bijdragen zijn welkom.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://app.selectie-tool.nl/licentie">
+<meta property="og:title" content="Licentie &amp; Open source — SelectieTool">
+<meta property="og:description" content="SelectieTool is open source onder AGPL-3.0. Vrij te gebruiken, aan te passen en te hosten. Bijdragen zijn welkom.">
+<meta property="og:image" content="https://app.selectie-tool.nl/screenshots/screenshot-1-dashboard.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-hexagon">DL</div>
+    <span class="nav-brand">SelectieTool</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="documentatie">Documentatie</a>
+    <a href="licentie" class="active">Licentie</a>
+    <a href="privacy">Privacy</a>
+    <a href="https://app.selectie-tool.nl" target="_blank" class="btn-demo-nav">Probeer de demo →</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="documentatie">Documentatie</a>
+  <a href="licentie">Licentie</a>
+  <a href="privacy">Privacy</a>
+  <a href="https://app.selectie-tool.nl" target="_blank" class="btn-demo-nav">Probeer de demo →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero-dark hero-compact">
+  <div class="container">
+    <div class="hero-tag">Open source</div>
+    <h1 class="hero-title" style="font-size:clamp(1.75rem,3.5vw,2.5rem);">Open source — AGPL-3.0</h1>
+    <p class="hero-subtitle" style="max-width:560px; margin-bottom:1.5rem;">De SelectieTool is vrij beschikbaar onder de GNU Affero General Public License versie 3.</p>
+    <div class="btn-row">
+      <a href="https://github.com/dlwillem/st" target="_blank" class="btn-primary">Bekijk op GitHub →</a>
+      <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" class="btn-ghost">Volledige licentietekst →</a>
+    </div>
+  </div>
+</section>
+
+<!-- AGPL UITLEG -->
+<section class="light-section">
+  <div class="container">
+    <h2 class="section-title" style="margin-bottom:0.5rem;">Wat betekent AGPL-3.0?</h2>
+    <p class="section-lead">De AGPL-3.0 is een sterke copyleft-licentie. Hier is wat je moet weten.</p>
+    <div class="license-grid">
+      <div class="license-card" style="background:#f0fdf4; border-color:#bbf7d0;">
+        <h3 style="color:#065f46;">✅ Wat mag je</h3>
+        <ul>
+          <li><span style="color:#059669;">✓</span> Vrij gebruiken, ook commercieel</li>
+          <li><span style="color:#059669;">✓</span> Aanpassen en uitbreiden</li>
+          <li><span style="color:#059669;">✓</span> Distribueren en hosten voor anderen</li>
+        </ul>
+      </div>
+      <div class="license-card" style="background:#fffbeb; border-color:#fde68a;">
+        <h3 style="color:#92400e;">📌 Wat zijn de voorwaarden</h3>
+        <ul>
+          <li><span style="color:#d97706;">→</span> Bij aanpassingen: broncode beschikbaar stellen aan gebruikers</li>
+          <li><span style="color:#d97706;">→</span> Network copyleft: wie de app via een netwerk aanbiedt (SaaS) moet wijzigingen delen</li>
+          <li><span style="color:#d97706;">→</span> Licentietekst intact houden</li>
+        </ul>
+      </div>
+      <div class="license-card" style="background:#fff1f2; border-color:#fecdd3;">
+        <h3 style="color:#9f1239;">❌ Wat is niet toegestaan</h3>
+        <ul>
+          <li><span style="color:#e11d48;">✗</span> Gesloten-source varianten verspreiden</li>
+          <li><span style="color:#e11d48;">✗</span> De licentie verwijderen of vervangen</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BIJDRAGEN + SECURITY -->
+<section style="background:#fff; padding:56px 2rem;">
+  <div class="container">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start;">
+      <div>
+        <h2 class="section-title" style="margin-bottom:1rem;">Bijdragen</h2>
+        <p style="font-size:1rem; color:var(--text-muted); line-height:1.75; margin-bottom:1.5rem;">
+          Bijdragen zijn welkom. Er is geen publieke issue tracker — neem contact op via de projectbeheerder. Code-stijl: PHP 8.2, 4 spaties indent, audit-log voor alle mutaties.
+        </p>
+        <a href="https://github.com/dlwillem/st/blob/main/CONTRIBUTING.md" target="_blank" class="btn-primary" style="display:inline-flex; font-size:14px;">Bekijk CONTRIBUTING.md op GitHub →</a>
+      </div>
+      <div>
+        <h2 class="section-title" style="margin-bottom:1rem;">Security melden</h2>
+        <div class="card" style="border-left:4px solid var(--primary);">
+          <p style="font-size:14.5px; color:var(--text-muted); line-height:1.75; margin-bottom:1rem;">
+            Heb je een kwetsbaarheid gevonden? Meld het privé — niet via een publiek issue.
+          </p>
+          <div style="display:flex; flex-direction:column; gap:0.6rem; margin-bottom:1rem;">
+            <div style="display:flex; align-items:center; gap:8px; font-size:14px;">
+              <span>📧</span>
+              <a href="mailto:willem@digilance-consulting.nl" style="color:var(--primary); text-decoration:none; font-weight:600;">willem@digilance-consulting.nl</a>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; font-size:14px;">
+              <span>🔐</span>
+              <a href="https://github.com/dlwillem/st/security/advisories/new" target="_blank" style="color:var(--primary); text-decoration:none; font-weight:600;">GitHub Private Vulnerability Reporting</a>
+            </div>
+          </div>
+          <p style="font-size:13px; color:var(--text-muted);">Verwacht binnen 5 werkdagen een bevestiging.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REPOSITORY CTA -->
+<section class="dark-section">
+  <div class="container" style="text-align:center;">
+    <p style="font-size:13px; color:rgba(255,255,255,0.4); text-transform:uppercase; letter-spacing:1px; font-weight:700; margin-bottom:1.5rem;">Repository</p>
+    <h2 style="color:white; font-size:1.5rem; font-weight:700; margin-bottom:0.75rem;">github.com/dlwillem/st</h2>
+    <p style="color:rgba(255,255,255,0.6); font-size:14px; margin-bottom:2rem;">PHP · MySQL · AGPL-3.0 · Zelf te hosten</p>
+    <a href="https://github.com/dlwillem/st" target="_blank" class="btn-primary" style="display:inline-flex;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+      Open de repository →
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <div class="nav-hexagon">DL</div>
+        <span class="footer-brand">SelectieTool</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="documentatie">Documentatie</a>
+        <a href="licentie">Licentie</a>
+        <a href="privacy">Privacy</a>
+        <a href="https://digilance-consulting.nl/#contact" target="_blank">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Digilance. Open source onder AGPL-3.0.</span>
+      <span class="footer-credit">Een initiatief van <a href="https://digilance-consulting.nl" target="_blank">Digilance</a> — www.digilance-consulting.nl</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+</script>
+</body>
+</html>

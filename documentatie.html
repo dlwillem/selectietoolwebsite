@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentatie — SelectieTool</title>
+<meta name="description" content="Installeer en configureer de SelectieTool. Systeemeisen, rollen, functies en stap-voor-stap installatiegids.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://app.selectie-tool.nl/documentatie">
+<meta property="og:title" content="Documentatie — SelectieTool">
+<meta property="og:description" content="Installeer en configureer de SelectieTool. Systeemeisen, rollen, functies en stap-voor-stap installatiegids.">
+<meta property="og:image" content="https://app.selectie-tool.nl/screenshots/screenshot-1-dashboard.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-hexagon">DL</div>
+    <span class="nav-brand">SelectieTool</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="documentatie" class="active">Documentatie</a>
+    <a href="licentie">Licentie</a>
+    <a href="privacy">Privacy</a>
+    <a href="https://app.selectie-tool.nl" target="_blank" class="btn-demo-nav">Probeer de demo →</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="documentatie">Documentatie</a>
+  <a href="licentie">Licentie</a>
+  <a href="privacy">Privacy</a>
+  <a href="https://app.selectie-tool.nl" target="_blank" class="btn-demo-nav">Probeer de demo →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero-dark hero-compact">
+  <div class="container">
+    <div class="hero-tag">Documentatie</div>
+    <h1 class="hero-title" style="font-size:clamp(1.75rem,3.5vw,2.5rem);">Documentatie &amp; installatie</h1>
+    <p class="hero-subtitle" style="max-width:560px; margin-bottom:0;">Alles wat je nodig hebt om de SelectieTool te installeren, configureren en gebruiken.</p>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="light-section">
+  <div class="container">
+    <h2 class="section-title" style="margin-bottom:1.75rem;">Functies overzicht</h2>
+    <div class="card-grid card-grid-2">
+      <div class="card" style="display:flex; gap:1rem; align-items:flex-start;">
+        <span style="font-size:1.4rem; margin-top:2px;">📋</span>
+        <div>
+          <h3 style="font-size:15px; font-weight:700; margin-bottom:4px;">Trajectbeheer</h3>
+          <p style="font-size:13.5px; color:var(--text-muted);">Meerdere selectietrajecten gelijktijdig, van concept tot afgerond</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex; gap:1rem; align-items:flex-start;">
+        <span style="font-size:1.4rem; margin-top:2px;">✅</span>
+        <div>
+          <h3 style="font-size:15px; font-weight:700; margin-bottom:4px;">Requirements</h3>
+          <p style="font-size:13.5px; color:var(--text-muted);">Functioneel + non-functioneel, MoSCoW, knock-outs, duplicaatdetectie</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex; gap:1rem; align-items:flex-start;">
+        <span style="font-size:1.4rem; margin-top:2px;">⚖️</span>
+        <div>
+          <h3 style="font-size:15px; font-weight:700; margin-bottom:4px;">Gewogen scoring</h3>
+          <p style="font-size:13.5px; color:var(--text-muted);">Twee niveaus: hoofdcategorie × subcategorie, Must weegt 2×</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex; gap:1rem; align-items:flex-start;">
+        <span style="font-size:1.4rem; margin-top:2px;">📧</span>
+        <div>
+          <h3 style="font-size:15px; font-weight:700; margin-bottom:4px;">E-mailuitnodigingen</h3>
+          <p style="font-size:13.5px; color:var(--text-muted);">Beoordelaars ontvangen een unieke tokenlink, geen login nodig</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex; gap:1rem; align-items:flex-start;">
+        <span style="font-size:1.4rem; margin-top:2px;">📊</span>
+        <div>
+          <h3 style="font-size:15px; font-weight:700; margin-bottom:4px;">Rapportage</h3>
+          <p style="font-size:13.5px; color:var(--text-muted);">Gewogen eindrangschikking exporteerbaar naar Excel</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex; gap:1rem; align-items:flex-start;">
+        <span style="font-size:1.4rem; margin-top:2px;">🔒</span>
+        <div>
+          <h3 style="font-size:15px; font-weight:700; margin-bottom:4px;">Veiligheid</h3>
+          <p style="font-size:13.5px; color:var(--text-muted);">CSRF, bcrypt, AES-256-GCM, HTTPS, AVG-conform</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex; gap:1rem; align-items:flex-start;">
+        <span style="font-size:1.4rem; margin-top:2px;">🏗️</span>
+        <div>
+          <h3 style="font-size:15px; font-weight:700; margin-bottom:4px;">Installatie-wizard</h3>
+          <p style="font-size:13.5px; color:var(--text-muted);">Zeven stappen, inclusief seed-data met voorbeeldtraject</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex; gap:1rem; align-items:flex-start;">
+        <span style="font-size:1.4rem; margin-top:2px;">🎭</span>
+        <div>
+          <h3 style="font-size:15px; font-weight:700; margin-bottom:4px;">Demo-scorecard</h3>
+          <p style="font-size:13.5px; color:var(--text-muted);">Aparte module voor beoordeling na leveranciersdemo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SYSTEM REQUIREMENTS + ROLLEN -->
+<section style="background:#fff; padding:56px 2rem;">
+  <div class="container">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start;">
+      <div>
+        <h2 class="section-title" style="margin-bottom:1.25rem;">Systeemeisen</h2>
+        <table class="feature-table" style="border-radius:var(--radius); overflow:hidden; border:1px solid var(--border);">
+          <thead>
+            <tr>
+              <th style="border-radius:0;">Component</th>
+              <th style="border-radius:0;">Versie</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>PHP</td><td><span class="badge badge-blue">8.2+</span></td></tr>
+            <tr><td>MySQL / MariaDB</td><td><span class="badge badge-blue">MySQL 8 · MariaDB 10.6+</span></td></tr>
+            <tr><td>Webserver</td><td>Apache + mod_rewrite</td></tr>
+            <tr><td>PHP Dependency Manager</td><td>Composer</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h2 class="section-title" style="margin-bottom:1.25rem;">Rollen</h2>
+        <table class="feature-table" style="border-radius:var(--radius); overflow:hidden; border:1px solid var(--border);">
+          <thead>
+            <tr>
+              <th>Rol</th>
+              <th>Omschrijving</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><code style="font-size:12px; background:var(--surface); padding:2px 6px; border-radius:4px;">architect</code></td><td>Volledige beheertoegang</td></tr>
+            <tr><td><code style="font-size:12px; background:var(--surface); padding:2px 6px; border-radius:4px;">business_owner</code></td><td>Trajecteigenaar, eindverantwoordelijk</td></tr>
+            <tr><td><code style="font-size:12px; background:var(--surface); padding:2px 6px; border-radius:4px;">business_analist</code></td><td>Requirements en structuur beheren</td></tr>
+            <tr><td><code style="font-size:12px; background:var(--surface); padding:2px 6px; border-radius:4px;">key_user</code></td><td>Scoren en beoordelen</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTALLATIE -->
+<section class="light-section">
+  <div class="container">
+    <h2 class="section-title" style="margin-bottom:0.5rem;">Installatie</h2>
+    <p class="section-lead">Stap voor stap aan de slag met de SelectieTool op je eigen server.</p>
+    <div class="card" style="margin-bottom:2rem;">
+      <ul class="install-steps">
+        <li class="install-step">
+          <div class="install-num">1</div>
+          <div>
+            <strong style="font-size:15px;">Clone de repository</strong>
+            <code>git clone git@github.com:dlwillem/st.git</code>
+          </div>
+        </li>
+        <li class="install-step">
+          <div class="install-num">2</div>
+          <div>
+            <strong style="font-size:15px;">Installeer dependencies via Composer</strong>
+            <code>composer install --no-dev --optimize-autoloader</code>
+          </div>
+        </li>
+        <li class="install-step">
+          <div class="install-num">3</div>
+          <div>
+            <strong style="font-size:15px;">Open de installatie-wizard in de browser</strong>
+            <code>https://jouwdomein.nl/install.php</code>
+            <p style="font-size:13px; color:var(--text-muted); margin-top:4px;">De wizard begeleidt je in 7 stappen door database-setup, admin-aanmaak en optionele seed-data.</p>
+          </div>
+        </li>
+        <li class="install-step">
+          <div class="install-num">4</div>
+          <div>
+            <strong style="font-size:15px;">Verwijder install.php na installatie</strong>
+            <p style="font-size:13px; color:var(--text-muted); margin-top:4px;">Laat dit bestand niet staan op productie.</p>
+          </div>
+        </li>
+        <li class="install-step">
+          <div class="install-num">5</div>
+          <div>
+            <strong style="font-size:15px;">Log in met het admin-account</strong>
+            <p style="font-size:13px; color:var(--text-muted); margin-top:4px;">Gebruik het account dat je in stap 3 hebt aangemaakt via de wizard.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <a href="https://github.com/dlwillem/st" target="_blank" class="btn-primary" style="display:inline-flex;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+      Bekijk op GitHub →
+    </a>
+  </div>
+</section>
+
+<!-- SCREENSHOT -->
+<section class="dark-section">
+  <div class="container">
+    <h2 class="section-title light" style="text-align:center; margin-bottom:2rem;">Scoring-overzicht</h2>
+    <div style="max-width:800px; margin:0 auto;">
+      <div class="browser-frame">
+        <div class="browser-bar">
+          <div class="browser-dot red"></div><div class="browser-dot yellow"></div><div class="browser-dot green"></div>
+          <div class="browser-url">app.selectie-tool.nl / scoring</div>
+        </div>
+        <img src="screenshots/screenshot-5-scoring.png" alt="Scoring overzicht">
+      </div>
+      <p style="font-size:13px; color:rgba(255,255,255,0.55); text-align:center; margin-top:0.75rem;">Scoring-overzicht per leverancier en hoofdcategorie — per cel een scoringsronde uitsturen of openen.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <div class="nav-hexagon">DL</div>
+        <span class="footer-brand">SelectieTool</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="documentatie">Documentatie</a>
+        <a href="licentie">Licentie</a>
+        <a href="privacy">Privacy</a>
+        <a href="https://digilance-consulting.nl/#contact" target="_blank">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Digilance. Open source onder AGPL-3.0.</span>
+      <span class="footer-credit">Een initiatief van <a href="https://digilance-consulting.nl" target="_blank">Digilance</a> — www.digilance-consulting.nl</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+</script>
+</body>
+</html>

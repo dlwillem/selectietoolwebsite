@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SelectieTool — Softwareselectie zonder Excel-chaos</title>
+<meta name="description" content="SelectieTool — open source softwareselectie zonder Excel-chaos. Requirements, scoring en rapportage in één tool. Gratis te proberen.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://app.selectie-tool.nl/">
+<meta property="og:title" content="SelectieTool — Softwareselectie zonder Excel-chaos">
+<meta property="og:description" content="Open source softwareselectie zonder Excel-chaos. Requirements, scoring en rapportage in één tool. Gratis te proberen.">
+<meta property="og:image" content="https://app.selectie-tool.nl/screenshots/screenshot-1-dashboard.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-hexagon">DL</div>
+    <span class="nav-brand">SelectieTool</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="documentatie">Documentatie</a>
+    <a href="licentie">Licentie</a>
+    <a href="privacy">Privacy</a>
+    <a href="https://app.selectie-tool.nl" target="_blank" class="btn-demo-nav">Probeer de demo →</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="documentatie">Documentatie</a>
+  <a href="licentie">Licentie</a>
+  <a href="privacy">Privacy</a>
+  <a href="https://app.selectie-tool.nl" target="_blank" class="btn-demo-nav">Probeer de demo →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero-dark" style="padding: 80px 2rem;">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-tag">Open source · AGPL-3.0</div>
+        <h1 class="hero-title">Softwareselectie<br>zonder Excel-chaos.</h1>
+        <p class="hero-subtitle">De SelectieTool begeleidt je van requirements tot leverancierskeuze — gestructureerd, transparant en open source.</p>
+        <div class="btn-row">
+          <a href="https://app.selectie-tool.nl" target="_blank" class="btn-primary">Probeer de demo →</a>
+          <a href="https://github.com/dlwillem/st" target="_blank" class="btn-ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            Bekijk op GitHub →
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <div class="browser-dot red"></div>
+            <div class="browser-dot yellow"></div>
+            <div class="browser-dot green"></div>
+            <div class="browser-url">app.selectie-tool.nl</div>
+          </div>
+          <img src="screenshots/screenshot-1-dashboard.png" alt="SelectieTool dashboard">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="light-section">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <h2 class="section-title" style="margin-bottom:1rem;">Waarom deze tool?</h2>
+        <p class="why-text">
+          Softwareselecties zijn al lastig genoeg. Je moet requirements ophalen, prioriteren, leveranciers vergelijken, collega's betrekken, scores verzamelen en dat alles weer samenvoegen tot een onderbouwde keuze. In de praktijk leidt dat tot een wirwar van Excel-bestanden, losse e-mails en vergaderingen zonder conclusie.
+        </p>
+        <p class="why-text" style="margin-top:1rem;">
+          Digilance ontwikkelde de SelectieTool om dat anders te doen. Één plek voor requirements, scoring, weging en rapportage. Transparant voor iedereen. Geen Excel meer.
+        </p>
+      </div>
+      <div>
+        <div class="feature-card">
+          <div class="feature-card-icon">🔓</div>
+          <div>
+            <h3>Open source</h3>
+            <p>AGPL-3.0, vrij te gebruiken en aan te passen</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon">🏗️</div>
+          <div>
+            <h3>Zelf te hosten</h3>
+            <p>PHP/MySQL, draait op standaard webhosting</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon">👥</div>
+          <div>
+            <h3>Voor teams</h3>
+            <p>Meerdere beoordelaars, rollen, e-mailuitnodigingen</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="light-section" style="background:#fff; padding-top:0; padding-bottom:72px;">
+  <div class="container">
+    <h2 class="section-title" style="text-align:center; margin-bottom:0.5rem;">Hoe werkt het?</h2>
+    <p class="section-lead" style="text-align:center; margin:0 auto 3rem;">5 stappen van idee tot keuze</p>
+    <div class="steps-row">
+      <div class="step">
+        <div class="step-n">01</div>
+        <div class="step-num">📋</div>
+        <h3>Requirements opstellen</h3>
+        <p>Functioneel, non-functioneel, MoSCoW, knock-outs</p>
+      </div>
+      <div class="step">
+        <div class="step-n">02</div>
+        <div class="step-num">📤</div>
+        <h3>Uitvraag leveranciers</h3>
+        <p>Gepersonaliseerde Excel per leverancier, zonder login</p>
+      </div>
+      <div class="step">
+        <div class="step-n">03</div>
+        <div class="step-num">⭐</div>
+        <h3>Scoren uitvraag</h3>
+        <p>Automatisch + handmatig, gewogen per categorie</p>
+      </div>
+      <div class="step">
+        <div class="step-n">04</div>
+        <div class="step-num">🖥️</div>
+        <h3>Demo &amp; beoordeling</h3>
+        <p>Onafhankelijk scoren, dag na de demo</p>
+      </div>
+      <div class="step">
+        <div class="step-n">05</div>
+        <div class="step-num">📊</div>
+        <h3>Rapportage &amp; keuze</h3>
+        <p>Gewogen eindrangschikking, transparant onderbouwd</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCREENSHOTS -->
+<section class="dark-section">
+  <div class="container">
+    <h2 class="section-title light" style="text-align:center; margin-bottom:0.5rem;">Zie hoe het werkt</h2>
+    <p class="section-lead light" style="text-align:center; margin:0 auto 2.5rem;">Een ingevuld ERP-selectietraject staat klaar in de demo.</p>
+    <div class="screenshots-grid">
+      <div class="screenshot-card">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <div class="browser-dot red"></div><div class="browser-dot yellow"></div><div class="browser-dot green"></div>
+            <div class="browser-url">app.selectie-tool.nl / weging</div>
+          </div>
+          <img src="screenshots/screenshot-2-weging.png" alt="Wegingen instellen">
+        </div>
+        <p>Wegingen instellen per categorie en subcategorie</p>
+      </div>
+      <div class="screenshot-card">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <div class="browser-dot red"></div><div class="browser-dot yellow"></div><div class="browser-dot green"></div>
+            <div class="browser-url">app.selectie-tool.nl / stamdata</div>
+          </div>
+          <img src="screenshots/screenshot-3-stamdata.png" alt="Stamdata">
+        </div>
+        <p>Stamdata beheren — applicatiesoorten en thema's</p>
+      </div>
+      <div class="screenshot-card">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <div class="browser-dot red"></div><div class="browser-dot yellow"></div><div class="browser-dot green"></div>
+            <div class="browser-url">app.selectie-tool.nl / requirements</div>
+          </div>
+          <img src="screenshots/screenshot-4-requirements.png" alt="Requirements">
+        </div>
+        <p>Requirements vastleggen met MoSCoW en knock-out markering</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO CTA -->
+<section class="cyan-section">
+  <div class="container demo-cta">
+    <h2>Probeer het zelf — gratis, direct, geen installatie</h2>
+    <p>De demo draait live op app.selectie-tool.nl. Je logt in met onderstaande gegevens en ziet een vooraf ingevuld ERP-selectietraject met requirements en leveranciers.</p>
+    <div class="credentials-card">
+      <div class="cred-title">🔑&nbsp; Demo-toegang</div>
+      <div class="cred-row"><span class="cred-label">URL</span><span class="cred-value">app.selectie-tool.nl</span></div>
+      <div class="cred-row"><span class="cred-label">Gebruiker</span><span class="cred-value">noreply@selectie-tool.nl</span></div>
+      <div class="cred-row" style="margin-bottom:1.5rem;"><span class="cred-label">Wachtwoord</span><span class="cred-value">administrator</span></div>
+      <a href="https://app.selectie-tool.nl" target="_blank" class="btn-primary" style="width:100%; justify-content:center;">Open de demo →</a>
+    </div>
+    <p class="cred-note">De demo-omgeving wordt periodiek teruggezet. Gevoelige instellingen zijn uitgeschakeld.</p>
+  </div>
+</section>
+
+<!-- TUINHUISJE -->
+<section class="light-section">
+  <div class="container">
+    <div class="tuinhuisje-card">
+      <div>
+        <h2 class="section-title" style="margin-bottom:0.75rem;">Gebouwd met AI — en dat is precies het punt</h2>
+        <p style="font-size:1rem; color:var(--text-muted); line-height:1.75; margin-bottom:1.5rem;">
+          De SelectieTool is een goed voorbeeld van wat Digilance het "tuinhuisje"-concept noemt: een gerichte, praktische applicatie die één probleem goed oplost — ontwikkeld met AI-tools als Claude en volledig open source beschikbaar gesteld. Geen enterprise-platform, geen licentiekosten, geen vendor lock-in. Gewoon een tool die werkt.
+        </p>
+        <a href="https://digilance-consulting.nl/iedereen-kan-fluks-een-app-bouwen.html" target="_blank" class="btn-primary" style="display:inline-flex;">Lees meer over het tuinhuisje-concept →</a>
+      </div>
+      <div style="font-size:4rem; opacity:0.4; user-select:none;">🏡</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <div class="nav-hexagon">DL</div>
+        <span class="footer-brand">SelectieTool</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="documentatie">Documentatie</a>
+        <a href="licentie">Licentie</a>
+        <a href="privacy">Privacy</a>
+        <a href="https://digilance-consulting.nl/#contact" target="_blank">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Digilance. Open source onder AGPL-3.0.</span>
+      <span class="footer-credit">Een initiatief van <a href="https://digilance-consulting.nl" target="_blank">Digilance</a> — www.digilance-consulting.nl</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+</script>
+</body>
+</html>
