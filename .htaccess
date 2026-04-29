@@ -1,6 +1,6 @@
 Options -Indexes
 RewriteEngine On
-RewriteBase /st-website/
+RewriteBase /
 
 # Serve clean URLs: /documentatie → documentatie.html
 RewriteCond %{REQUEST_FILENAME} !-d
