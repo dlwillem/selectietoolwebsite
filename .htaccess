@@ -2,6 +2,10 @@ Options -Indexes
 RewriteEngine On
 RewriteBase /
 
+# www → non-www redirect
+RewriteCond %{HTTP_HOST} ^www\.selectie-tool\.nl [NC]
+RewriteRule ^ https://selectie-tool.nl%{REQUEST_URI} [R=301,L]
+
 # Serve clean URLs: /documentatie → documentatie.html
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
